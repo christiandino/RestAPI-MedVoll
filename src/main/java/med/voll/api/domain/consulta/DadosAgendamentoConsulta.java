@@ -7,7 +7,7 @@ import med.voll.api.domain.medico.Especialidade;
 
 import java.time.LocalDateTime;
 
-// Trecho de código suprimido
+
 
 public record DadosAgendamentoConsulta(
         Long idMedico,
@@ -17,8 +17,7 @@ public record DadosAgendamentoConsulta(
 
         @NotNull
         @Future
-        LocalDateTime data)//,
+        LocalDateTime data,
 
-        //Especialidade especialidade)
- {
+        Especialidade especialidade){
 }
